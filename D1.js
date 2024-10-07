@@ -70,4 +70,4 @@ console.log(sub);
 let name1 = "john";
 let name2 = "John";
 console.log(name1 === name2); /* false perchè non sono strettamente uguali */
-console.log(name1.toLowerCase === name2.toLowerCase); /* true perchè modificando tutti i caratteri in minuscolo diventano stringhe uguali*/
+console.log(name1 === name2.toLowerCase()); /* true perchè modificando tutti i caratteri in minuscolo diventano stringhe uguali*/
